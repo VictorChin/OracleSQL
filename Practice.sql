@@ -129,8 +129,8 @@ SELECT SUM(Salary) OVER
 (Order By Salary DESC,First_Name ) "RunningTotal",First_Name , Salary
 FROM employees 
 ;
-Select Sum(Salary) Over (Partition By Department_ID
-Order By Department_ID,First_Name) as "RunningTotal",
+Select Round(AVG(Salary) Over (Partition By Department_ID
+Order By Department_ID,First_Name)) as "RunningTotal",
 Department_ID,First_name, Salary
 From Employees Order By Department_ID,First_Name;
 
