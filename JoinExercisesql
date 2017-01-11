@@ -1,0 +1,5 @@
+Select Department_Name, Count(*)
+From 
+Departments D Join Employees E
+on D.Department_ID = E.Department_ID
+Group By Department_Name;
