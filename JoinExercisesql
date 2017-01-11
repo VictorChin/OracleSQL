@@ -1,5 +1,7 @@
-Select Department_Name, Count(*)
+Select Department_Name, Count(Employee_ID) as HeadCount,
+ListAgg(First_Name,'|') WITHIN GROUP (Order by First_Name)
 From 
-Departments D Join Employees E
+Employees E Right Join Departments D 
 on D.Department_ID = E.Department_ID
-Group By Department_Name;
+Group By Department_Name 
+Having Sum(Salary) > 10000 AND Count(Employee_ID) >10;
