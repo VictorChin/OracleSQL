@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="SH" directorySegmentName="seg_0" id="64CA0A10-7550-50EF-A047-1E9860589B46">
+<sourceConnName>SH</sourceConnName>
+<sourceObjName>SH</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:51 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<schemaObject>5DDF790B-032C-E679-2970-75C0DEA13903</schemaObject>
+</UserOraclev10g>

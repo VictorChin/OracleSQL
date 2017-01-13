@@ -1,0 +1,408 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2AF84993-C144-C621-4194-CFC407CF9923" schemaObject="5DDF790B-032C-E679-2970-75C0DEA13903" name="PRODUCTS">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>SH</sourceObjSchema>
+<sourceObjName>PRODUCTS</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>dimension table</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROD_ID" id="04FBF127-B974-C702-8F1A-F3B5D0AF8B97">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PROD_ID</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>primary key</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_NAME" id="6DC6895B-5E75-9D80-0DE9-57F3FD8D1B2D">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PROD_NAME</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>product name</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_DESC" id="D53E685D-B93A-65A0-2F4A-CCB6C8A4F3BE">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PROD_DESC</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>product description</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_SUBCATEGORY" id="3397C433-99CE-9AC4-CD3E-13F7FC640669">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PROD_SUBCATEGORY</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>product subcategory</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_SUBCATEGORY_ID" id="B3773C50-48FD-F70B-277A-FB4DC47C2B45">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PROD_SUBCATEGORY_ID</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_SUBCATEGORY_DESC" id="52DA3DBC-62A3-45FB-5AE0-FF3E296E523A">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PROD_SUBCATEGORY_DESC</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>product subcategory description</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000 BYTE</dataTypeSize>
+<ownDataTypeParameters>2000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_CATEGORY" id="CEDF1E07-9F20-D7C2-B94C-41F7942C109E">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PROD_CATEGORY</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>product category</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_CATEGORY_ID" id="218CB90A-D7E3-9868-32EF-694FD2579425">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PROD_CATEGORY_ID</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_CATEGORY_DESC" id="DB722F63-6B77-0B13-A1CA-8B846CE1AF22">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PROD_CATEGORY_DESC</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>product category description</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000 BYTE</dataTypeSize>
+<ownDataTypeParameters>2000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_WEIGHT_CLASS" id="58799472-F100-EC81-A2DB-3271EBAAD586">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PROD_WEIGHT_CLASS</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>product weight class</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_UNIT_OF_MEASURE" id="B3938447-6428-896C-584B-90D6EED418CC">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PROD_UNIT_OF_MEASURE</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>product unit of measure</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_PACK_SIZE" id="D894A590-0214-1F7F-CE5D-F20197F11DE6">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PROD_PACK_SIZE</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>product package size</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUPPLIER_ID" id="D16DAEA5-17E9-7B4D-0B41-7650E2FF33B4">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>SUPPLIER_ID</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>this column</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_STATUS" id="B5B5F7F4-8EF4-F988-5204-39E43E9C9841">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PROD_STATUS</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>product status</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_LIST_PRICE" id="434BE626-2CD8-563D-C5A8-E7AEE5678CBA">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PROD_LIST_PRICE</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>product list price</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_MIN_PRICE" id="69C9D919-DCE7-0905-668E-5F52F3770D86">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PROD_MIN_PRICE</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>product minimum price</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_TOTAL" id="6B0D4DF6-5668-9068-4E21-BF11A2DE6184">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PROD_TOTAL</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13 BYTE</dataTypeSize>
+<ownDataTypeParameters>13 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_TOTAL_ID" id="4D95E954-56F3-BAF8-2A36-D8119BB63F35">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PROD_TOTAL_ID</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_SRC_ID" id="E8F081AD-46DE-F622-AB3B-B82E7381357C">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PROD_SRC_ID</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_EFF_FROM" id="7C9698B7-5567-E628-7440-FCA39233BAC0">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PROD_EFF_FROM</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_EFF_TO" id="FAA37878-F939-4597-A731-78F42CE6C888">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PROD_EFF_TO</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_VALID" id="8ACB2748-7602-F38E-A572-5504360528E7">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PROD_VALID</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A9904CB0-24F9-E28E-A2C7-27635ED92E5A" name="PRODUCTS_PK">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>SH</sourceObjSchema>
+<sourceObjName>PRODUCTS_PK</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04FBF127-B974-C702-8F1A-F3B5D0AF8B97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="32007B88-812C-AF90-941D-019DDD6AC0C2" schemaObject="5DDF790B-032C-E679-2970-75C0DEA13903" name="PRODUCTS_PK">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>SH</sourceObjSchema>
+<sourceObjName>PRODUCTS_PK</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04FBF127-B974-C702-8F1A-F3B5D0AF8B97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A2E2B7A-ACD9-FCB8-E617-77BF14039BD4" schemaObject="5DDF790B-032C-E679-2970-75C0DEA13903" name="PRODUCTS_PROD_CAT_IX">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>SH</sourceObjSchema>
+<sourceObjName>PRODUCTS_PROD_CAT_IX</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CEDF1E07-9F20-D7C2-B94C-41F7942C109E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B275B603-4AE3-A15B-697E-CF4AB643C03D" schemaObject="5DDF790B-032C-E679-2970-75C0DEA13903" name="PRODUCTS_PROD_STATUS_BIX">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>SH</sourceObjSchema>
+<sourceObjName>PRODUCTS_PROD_STATUS_BIX</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5B5F7F4-8EF4-F988-5204-39E43E9C9841"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91ECCDF8-5CD2-4F64-84FE-0701F36E7CD6" schemaObject="5DDF790B-032C-E679-2970-75C0DEA13903" name="PRODUCTS_PROD_SUBCAT_IX">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>SH</sourceObjSchema>
+<sourceObjName>PRODUCTS_PROD_SUBCAT_IX</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3397C433-99CE-9AC4-CD3E-13F7FC640669"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

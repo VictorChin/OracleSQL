@@ -1,0 +1,234 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="239BEA7A-F9EB-3212-5988-8BBED5A666E2" schemaObject="5DDF790B-032C-E679-2970-75C0DEA13903" name="SALES">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>SH</sourceObjSchema>
+<sourceObjName>SALES</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>facts table, without a primary key; all rows are uniquely identified by the combination of all foreign keys</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROD_ID" id="C9A5C4C1-F224-F189-40F3-DE2BBF31E5C6">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>SALES</sourceObjSchema>
+<sourceObjName>PROD_ID</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>FK to the products dimension table</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04FAD899-3727-E25C-F858-BBCEA157D3D2" referredColumn="04FBF127-B974-C702-8F1A-F3B5D0AF8B97"/>
+</associations>
+</Column>
+<Column name="CUST_ID" id="78804105-7AF7-AACE-1E92-CCC247EE23C6">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>SALES</sourceObjSchema>
+<sourceObjName>CUST_ID</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>FK to the customers dimension table</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1B20B694-D8F4-D586-36F2-D2D53D945B49" referredColumn="74C7552F-B936-E0DB-DDC5-6AADD4567C07"/>
+</associations>
+</Column>
+<Column name="TIME_ID" id="AEED46B8-E33E-E0A7-15A7-EC0B35CCD7C8">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>SALES</sourceObjSchema>
+<sourceObjName>TIME_ID</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>FK to the times dimension table</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E7155AF-853E-61EB-CAB4-06249DA73AAE" referredColumn="E090A3A4-8A45-D2C6-B935-E7EDB2F9A177"/>
+</associations>
+</Column>
+<Column name="CHANNEL_ID" id="46226DE2-C842-9525-DBAB-EFAD4D14C91D">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>SALES</sourceObjSchema>
+<sourceObjName>CHANNEL_ID</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>FK to the channels dimension table</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="46C8FB0A-23D9-5585-F696-0D0FFE3830AA" referredColumn="526163DE-D946-ABC1-86F3-B177503DC02B"/>
+</associations>
+</Column>
+<Column name="PROMO_ID" id="0A5616C0-0CAE-2966-2989-B2DD85457833">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>SALES</sourceObjSchema>
+<sourceObjName>PROMO_ID</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>promotion identifier, without FK constraint (intentionally) to show outer join optimization</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QUANTITY_SOLD" id="42E73DD0-BA5E-F5D4-937A-8436A80B9234">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>SALES</sourceObjSchema>
+<sourceObjName>QUANTITY_SOLD</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>product quantity sold with the transaction</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AMOUNT_SOLD" id="472F9A4D-568E-3AC2-A42F-7BF0D6967477">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>SALES</sourceObjSchema>
+<sourceObjName>AMOUNT_SOLD</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>invoiced amount to the customer</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="335A2915-3CC0-9773-1779-F59CFAA60D2D" schemaObject="5DDF790B-032C-E679-2970-75C0DEA13903" name="SALES_CHANNEL_BIX">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>SH</sourceObjSchema>
+<sourceObjName>SALES_CHANNEL_BIX</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46226DE2-C842-9525-DBAB-EFAD4D14C91D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="02DB51D1-AB19-11AE-4A98-9DD4616D600F" schemaObject="5DDF790B-032C-E679-2970-75C0DEA13903" name="SALES_CUST_BIX">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>SH</sourceObjSchema>
+<sourceObjName>SALES_CUST_BIX</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78804105-7AF7-AACE-1E92-CCC247EE23C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77690548-7186-6186-DB67-AFC2D60059B0" schemaObject="5DDF790B-032C-E679-2970-75C0DEA13903" name="SALES_PROD_BIX">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>SH</sourceObjSchema>
+<sourceObjName>SALES_PROD_BIX</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9A5C4C1-F224-F189-40F3-DE2BBF31E5C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A9D30BB-42FB-133E-0A8E-CABB46E4CAEB" schemaObject="5DDF790B-032C-E679-2970-75C0DEA13903" name="SALES_PROMO_BIX">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>SH</sourceObjSchema>
+<sourceObjName>SALES_PROMO_BIX</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A5616C0-0CAE-2966-2989-B2DD85457833"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F0326E71-BD6E-55FC-620A-E0A355833A2C" schemaObject="5DDF790B-032C-E679-2970-75C0DEA13903" name="SALES_TIME_BIX">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>SH</sourceObjSchema>
+<sourceObjName>SALES_TIME_BIX</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEED46B8-E33E-E0A7-15A7-EC0B35CCD7C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B23AAA36-FE12-7F9E-2B51-F9DA65151A34" name="SALES_CHANNEL_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46226DE2-C842-9525-DBAB-EFAD4D14C91D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="944323AC-8ED7-CE5E-D6AC-8E2B90A3ACB5" name="SALES_CUSTOMER_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78804105-7AF7-AACE-1E92-CCC247EE23C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6B8B6ED-EB73-1CC5-6A3B-E5AE75C6EF14" name="SALES_PRODUCT_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9A5C4C1-F224-F189-40F3-DE2BBF31E5C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2963A667-AC9F-7F89-0E25-90C6B0D5E155" name="SALES_TIME_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEED46B8-E33E-E0A7-15A7-EC0B35CCD7C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,432 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="97673DBD-CF43-347E-050A-1973C3B6976B" schemaObject="5DDF790B-032C-E679-2970-75C0DEA13903" name="CUSTOMERS">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>SH</sourceObjSchema>
+<sourceObjName>CUSTOMERS</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>dimension table</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUST_ID" id="74C7552F-B936-E0DB-DDC5-6AADD4567C07">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CUST_ID</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>primary key</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_FIRST_NAME" id="3DF5AF14-539D-F985-831A-5B5C87C3A5CC">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CUST_FIRST_NAME</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>first name of the customer</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_LAST_NAME" id="EB6CB141-F6B8-DE6A-FFC5-5BCC4A4AD632">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CUST_LAST_NAME</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>last name of the customer</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_GENDER" id="4554C3A8-6EA2-0C88-46EF-4C61C4517122">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CUST_GENDER</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>gender; low cardinality attribute</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_YEAR_OF_BIRTH" id="7B412A8D-1A88-1F54-7ABE-08BED0C75BC5">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CUST_YEAR_OF_BIRTH</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>customer year of birth</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_MARITAL_STATUS" id="7C3E38F4-6D0E-B987-D03E-71FCD7263A1D">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CUST_MARITAL_STATUS</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>customer marital status; low cardinality attribute</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_STREET_ADDRESS" id="146DFE15-0CFC-2D41-7256-1F56F07794F2">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CUST_STREET_ADDRESS</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>customer street address</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_POSTAL_CODE" id="A63BB4F3-8308-ECCB-F4B5-BA81A0F58010">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CUST_POSTAL_CODE</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>postal code of the customer</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_CITY" id="D58A25BE-7441-1C70-5F17-0E31D49B2B0B">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CUST_CITY</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>city where the customer lives</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_CITY_ID" id="C8872C0A-7EE1-F6D0-C7F2-2BFA8E4F47B5">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CUST_CITY_ID</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_STATE_PROVINCE" id="85B76D0E-7493-65DD-76A1-92221AFC088C">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CUST_STATE_PROVINCE</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>customer geography: state or province</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_STATE_PROVINCE_ID" id="1582B0A2-18E0-39D3-F5D0-304F777E1DC8">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CUST_STATE_PROVINCE_ID</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTRY_ID" id="2990CF19-5EA7-D09D-CF09-59103E79D7A2">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>COUNTRY_ID</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>foreign key to the countries table (snowflake)</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="03479D9F-1699-2CD5-CE5B-B60FBAB2DF78" referredColumn="79A3CB84-81C5-2779-D436-9A16C9019E53"/>
+</associations>
+</Column>
+<Column name="CUST_MAIN_PHONE_NUMBER" id="BC9E9CE5-F8D6-251B-5E20-28FA12217B2A">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CUST_MAIN_PHONE_NUMBER</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>customer main phone number</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_INCOME_LEVEL" id="9335E078-88BB-DB7A-D496-63FA0AED04FB">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CUST_INCOME_LEVEL</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>customer income level</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_CREDIT_LIMIT" id="F085BD34-DE63-397D-AAB0-50386982C3C9">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CUST_CREDIT_LIMIT</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>customer credit limit</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_EMAIL" id="BB430C87-DE33-421C-1FEE-C68F010E1C1F">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CUST_EMAIL</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>customer email id</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_TOTAL" id="6033B06A-8D4F-B9A0-679E-DC42668FA21E">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CUST_TOTAL</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14 BYTE</dataTypeSize>
+<ownDataTypeParameters>14 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_TOTAL_ID" id="FFB427F2-7C16-34CF-5A71-FBD62F1DEC59">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CUST_TOTAL_ID</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_SRC_ID" id="19162045-0C26-4A09-F13B-1DC8F17FB668">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CUST_SRC_ID</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_EFF_FROM" id="153141C2-4651-9973-71A4-007E1297B90D">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CUST_EFF_FROM</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_EFF_TO" id="97FBEF0A-BDD1-6957-C31B-AF2AC99E5D22">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CUST_EFF_TO</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_VALID" id="4BCE3180-211B-38B5-1EAA-64804D0B3077">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CUST_VALID</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D52D4087-0FD8-FFEC-3E92-357542012A8A" name="CUSTOMERS_PK">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>SH</sourceObjSchema>
+<sourceObjName>CUSTOMERS_PK</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74C7552F-B936-E0DB-DDC5-6AADD4567C07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C912B327-E4EF-7B2E-0C2F-82E65660DA71" schemaObject="5DDF790B-032C-E679-2970-75C0DEA13903" name="CUSTOMERS_GENDER_BIX">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>SH</sourceObjSchema>
+<sourceObjName>CUSTOMERS_GENDER_BIX</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4554C3A8-6EA2-0C88-46EF-4C61C4517122"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E9A7FA13-2ADF-D85B-9369-BF6B8EC42AA8" schemaObject="5DDF790B-032C-E679-2970-75C0DEA13903" name="CUSTOMERS_MARITAL_BIX">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>SH</sourceObjSchema>
+<sourceObjName>CUSTOMERS_MARITAL_BIX</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C3E38F4-6D0E-B987-D03E-71FCD7263A1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4EE3189-83BD-ACEF-6775-BDA2D1F3A57D" schemaObject="5DDF790B-032C-E679-2970-75C0DEA13903" name="CUSTOMERS_PK">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>SH</sourceObjSchema>
+<sourceObjName>CUSTOMERS_PK</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74C7552F-B936-E0DB-DDC5-6AADD4567C07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66FDF6B0-7E9C-A8B2-6885-1E6B6559E2A9" schemaObject="5DDF790B-032C-E679-2970-75C0DEA13903" name="CUSTOMERS_YOB_BIX">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>SH</sourceObjSchema>
+<sourceObjName>CUSTOMERS_YOB_BIX</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B412A8D-1A88-1F54-7ABE-08BED0C75BC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A636B68A-F84E-E7B1-C29B-A490BA063411" name="CUSTOMERS_COUNTRY_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2990CF19-5EA7-D09D-CF09-59103E79D7A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

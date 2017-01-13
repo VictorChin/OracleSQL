@@ -1,0 +1,1907 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="SALES" directorySegmentName="seg_0" id="239BEA7A-F9EB-3212-5988-8BBED5A666E2">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<schemaObject>5DDF790B-032C-E679-2970-75C0DEA13903</schemaObject>
+<logging>NO</logging>
+<partitionList class="oracle.dbtools.crest.model.design.storage.oracle.v11g.PartitionListOraclev11g" name="PL1" id="FCEFB1C5-6D12-23FC-0323-668D298ABF69">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<columnIDs>AEED46B8-E33E-E0A7-15A7-EC0B35CCD7C8</columnIDs>
+</partitionList>
+<partitioned>YES</partitioned>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>3025A988-E7F5-26FE-7E37-54EE1862694F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PROMO_ID" id="0A5616C0-0CAE-2966-2989-B2DD85457833">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="QUANTITY_SOLD" id="42E73DD0-BA5E-F5D4-937A-8436A80B9234">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CHANNEL_ID" id="46226DE2-C842-9525-DBAB-EFAD4D14C91D">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AMOUNT_SOLD" id="472F9A4D-568E-3AC2-A42F-7BF0D6967477">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUST_ID" id="78804105-7AF7-AACE-1E92-CCC247EE23C6">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIME_ID" id="AEED46B8-E33E-E0A7-15A7-EC0B35CCD7C8">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROD_ID" id="C9A5C4C1-F224-F189-40F3-DE2BBF31E5C6">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SALES_CUST_BIX" id="02DB51D1-AB19-11AE-4A98-9DD4616D600F">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<schemaObject>5DDF790B-032C-E679-2970-75C0DEA13903</schemaObject>
+<partitioned>true</partitioned>
+<bitmapIndex>true</bitmapIndex>
+<indexPartitioned>LOCAL</indexPartitioned>
+<logging>NO</logging>
+<segment>68DA1F2E-B66E-1254-70E6-7A9559F9CD50</segment>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SALES_CHANNEL_BIX" id="335A2915-3CC0-9773-1779-F59CFAA60D2D">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<schemaObject>5DDF790B-032C-E679-2970-75C0DEA13903</schemaObject>
+<partitioned>true</partitioned>
+<bitmapIndex>true</bitmapIndex>
+<indexPartitioned>LOCAL</indexPartitioned>
+<logging>NO</logging>
+<segment>68DA1F2E-B66E-1254-70E6-7A9559F9CD50</segment>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SALES_PROMO_BIX" id="3A9D30BB-42FB-133E-0A8E-CABB46E4CAEB">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<schemaObject>5DDF790B-032C-E679-2970-75C0DEA13903</schemaObject>
+<partitioned>true</partitioned>
+<bitmapIndex>true</bitmapIndex>
+<indexPartitioned>LOCAL</indexPartitioned>
+<logging>NO</logging>
+<segment>68DA1F2E-B66E-1254-70E6-7A9559F9CD50</segment>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SALES_PROD_BIX" id="77690548-7186-6186-DB67-AFC2D60059B0">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<schemaObject>5DDF790B-032C-E679-2970-75C0DEA13903</schemaObject>
+<partitioned>true</partitioned>
+<bitmapIndex>true</bitmapIndex>
+<indexPartitioned>LOCAL</indexPartitioned>
+<logging>NO</logging>
+<segment>68DA1F2E-B66E-1254-70E6-7A9559F9CD50</segment>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SALES_TIME_BIX" id="F0326E71-BD6E-55FC-620A-E0A355833A2C">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<schemaObject>5DDF790B-032C-E679-2970-75C0DEA13903</schemaObject>
+<partitioned>true</partitioned>
+<bitmapIndex>true</bitmapIndex>
+<indexPartitioned>LOCAL</indexPartitioned>
+<logging>NO</logging>
+<segment>68DA1F2E-B66E-1254-70E6-7A9559F9CD50</segment>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SALES_TIME_FK" id="2963A667-AC9F-7F89-0E25-90C6B0D5E155">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<validate>NO</validate>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SALES_CUSTOMER_FK" id="944323AC-8ED7-CE5E-D6AC-8E2B90A3ACB5">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<validate>NO</validate>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SALES_CHANNEL_FK" id="B23AAA36-FE12-7F9E-2B51-F9DA65151A34">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<validate>NO</validate>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SALES_PRODUCT_FK" id="D6B8B6ED-EB73-1CC5-6A3B-E5AE75C6EF14">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<validate>NO</validate>
+</ForeignKey>
+</foreignKeys>
+<partitions>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.PartitionOraclev11g" name="SALES_1995" id="5631B394-F997-3CD7-4CBD-F0AF9CCD1788">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>NO</logging>
+<position>1</position>
+<segment>12BA017C-3A16-76AA-DC5B-95881611CC8E</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+<valueList>TO_DATE(&apos; 1996-01-01 00:00:00&apos;, &apos;SYYYY-MM-DD HH24:MI:SS&apos;, &apos;NLS_CALENDAR=GREGORIAN&apos;)</valueList>
+<localIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP1" id="808044C5-86DC-0D9E-990B-F41B9EB64464">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>335A2915-3CC0-9773-1779-F59CFAA60D2D</index>
+<logging>NO</logging>
+<partitionName>SALES_1995</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP113" id="4BF4EF37-900B-2A2E-3260-C08C936B845C">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>F0326E71-BD6E-55FC-620A-E0A355833A2C</index>
+<logging>NO</logging>
+<partitionName>SALES_1995</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP29" id="E36F8B5A-E3AD-A5B1-98F5-5439878C4EEF">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>02DB51D1-AB19-11AE-4A98-9DD4616D600F</index>
+<logging>NO</logging>
+<partitionName>SALES_1995</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP57" id="ABAF8206-634D-CFD6-3AD9-A3B5DF871123">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>77690548-7186-6186-DB67-AFC2D60059B0</index>
+<logging>NO</logging>
+<partitionName>SALES_1995</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP85" id="4A9D80C1-9C42-4877-6F56-0BC913725870">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>3A9D30BB-42FB-133E-0A8E-CABB46E4CAEB</index>
+<logging>NO</logging>
+<partitionName>SALES_1995</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+</localIndexProperties>
+</Partition>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.PartitionOraclev11g" name="SALES_1996" id="355B00D4-CB0A-346D-0EF1-CF9969D57B88">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>NO</logging>
+<position>2</position>
+<segment>12BA017C-3A16-76AA-DC5B-95881611CC8E</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+<valueList>TO_DATE(&apos; 1997-01-01 00:00:00&apos;, &apos;SYYYY-MM-DD HH24:MI:SS&apos;, &apos;NLS_CALENDAR=GREGORIAN&apos;)</valueList>
+<localIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP114" id="8FA90F7F-2F19-C6DD-CE74-FEAD6F537C00">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>F0326E71-BD6E-55FC-620A-E0A355833A2C</index>
+<logging>NO</logging>
+<partitionName>SALES_1996</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP2" id="B60F81E0-ED47-FAC3-B38C-B2191658EDD2">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>335A2915-3CC0-9773-1779-F59CFAA60D2D</index>
+<logging>NO</logging>
+<partitionName>SALES_1996</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP30" id="04067D11-6972-05DC-AA92-77241966BA17">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>02DB51D1-AB19-11AE-4A98-9DD4616D600F</index>
+<logging>NO</logging>
+<partitionName>SALES_1996</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP58" id="F5836509-BF3E-FC32-0B28-27D6F7C2A2E3">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>77690548-7186-6186-DB67-AFC2D60059B0</index>
+<logging>NO</logging>
+<partitionName>SALES_1996</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP86" id="4B50D785-50BA-40B9-31F3-8F00BF6D6C06">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>3A9D30BB-42FB-133E-0A8E-CABB46E4CAEB</index>
+<logging>NO</logging>
+<partitionName>SALES_1996</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+</localIndexProperties>
+</Partition>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.PartitionOraclev11g" name="SALES_H1_1997" id="65639DA1-196F-324E-731D-3355AC09C551">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>NO</logging>
+<position>3</position>
+<segment>12BA017C-3A16-76AA-DC5B-95881611CC8E</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+<valueList>TO_DATE(&apos; 1997-07-01 00:00:00&apos;, &apos;SYYYY-MM-DD HH24:MI:SS&apos;, &apos;NLS_CALENDAR=GREGORIAN&apos;)</valueList>
+<localIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP115" id="3A4CB1BE-C80F-82FE-8510-DF2E78E17608">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>F0326E71-BD6E-55FC-620A-E0A355833A2C</index>
+<logging>NO</logging>
+<partitionName>SALES_H1_1997</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP3" id="9E61B8F0-E9EF-F001-3B03-627440D5F4F8">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>335A2915-3CC0-9773-1779-F59CFAA60D2D</index>
+<logging>NO</logging>
+<partitionName>SALES_H1_1997</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP31" id="BB35B53E-DEFB-56C6-8EC8-9FB69105F69A">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>02DB51D1-AB19-11AE-4A98-9DD4616D600F</index>
+<logging>NO</logging>
+<partitionName>SALES_H1_1997</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP59" id="BDC79BCF-2EE0-A5DD-FDE6-DDB5440DA8D0">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>77690548-7186-6186-DB67-AFC2D60059B0</index>
+<logging>NO</logging>
+<partitionName>SALES_H1_1997</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP87" id="7BEDB763-4AFA-0327-5AF2-855A75D47D9D">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>3A9D30BB-42FB-133E-0A8E-CABB46E4CAEB</index>
+<logging>NO</logging>
+<partitionName>SALES_H1_1997</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+</localIndexProperties>
+</Partition>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.PartitionOraclev11g" name="SALES_H2_1997" id="EA5F53C3-CA78-B4B8-41B8-D179C0D6980B">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>NO</logging>
+<position>4</position>
+<segment>12BA017C-3A16-76AA-DC5B-95881611CC8E</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+<valueList>TO_DATE(&apos; 1998-01-01 00:00:00&apos;, &apos;SYYYY-MM-DD HH24:MI:SS&apos;, &apos;NLS_CALENDAR=GREGORIAN&apos;)</valueList>
+<localIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP116" id="B91F7D0C-F583-0445-4637-E42F07FD91E7">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>F0326E71-BD6E-55FC-620A-E0A355833A2C</index>
+<logging>NO</logging>
+<partitionName>SALES_H2_1997</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP32" id="9F4AFC08-6339-E001-4DE9-2E9A5362B10E">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>02DB51D1-AB19-11AE-4A98-9DD4616D600F</index>
+<logging>NO</logging>
+<partitionName>SALES_H2_1997</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP4" id="8BA59881-C099-790B-551E-6EAE389CBDBF">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>335A2915-3CC0-9773-1779-F59CFAA60D2D</index>
+<logging>NO</logging>
+<partitionName>SALES_H2_1997</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP60" id="444D8694-E9DE-CF63-C225-4F6DFFC1BADE">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>77690548-7186-6186-DB67-AFC2D60059B0</index>
+<logging>NO</logging>
+<partitionName>SALES_H2_1997</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP88" id="60485B2D-B94E-32E3-16D6-7CB07C64BBDB">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>3A9D30BB-42FB-133E-0A8E-CABB46E4CAEB</index>
+<logging>NO</logging>
+<partitionName>SALES_H2_1997</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+</localIndexProperties>
+</Partition>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.PartitionOraclev11g" name="SALES_Q1_1998" id="4E6336CF-6D05-27FB-1861-CE76DF076C84">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>NO</logging>
+<position>5</position>
+<segment>12BA017C-3A16-76AA-DC5B-95881611CC8E</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+<valueList>TO_DATE(&apos; 1998-04-01 00:00:00&apos;, &apos;SYYYY-MM-DD HH24:MI:SS&apos;, &apos;NLS_CALENDAR=GREGORIAN&apos;)</valueList>
+<localIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP117" id="1909755F-3D84-8C33-9454-35B8D36E4AD8">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>F0326E71-BD6E-55FC-620A-E0A355833A2C</index>
+<logging>NO</logging>
+<partitionName>SALES_Q1_1998</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP33" id="3E63C256-103A-2B29-673D-26CE05FDB41D">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>02DB51D1-AB19-11AE-4A98-9DD4616D600F</index>
+<logging>NO</logging>
+<partitionName>SALES_Q1_1998</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP5" id="6A76CAF9-0675-56F7-0CF4-00467403EE84">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>335A2915-3CC0-9773-1779-F59CFAA60D2D</index>
+<logging>NO</logging>
+<partitionName>SALES_Q1_1998</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP61" id="470AB061-7619-0617-9565-5425F48F4DCA">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>77690548-7186-6186-DB67-AFC2D60059B0</index>
+<logging>NO</logging>
+<partitionName>SALES_Q1_1998</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP89" id="047F10CF-5609-63B7-587F-F34EFF766E12">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>3A9D30BB-42FB-133E-0A8E-CABB46E4CAEB</index>
+<logging>NO</logging>
+<partitionName>SALES_Q1_1998</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+</localIndexProperties>
+</Partition>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.PartitionOraclev11g" name="SALES_Q2_1998" id="23AA661C-AA9A-3130-D9E9-9E8F07EBFCB2">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>NO</logging>
+<position>6</position>
+<segment>12BA017C-3A16-76AA-DC5B-95881611CC8E</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+<valueList>TO_DATE(&apos; 1998-07-01 00:00:00&apos;, &apos;SYYYY-MM-DD HH24:MI:SS&apos;, &apos;NLS_CALENDAR=GREGORIAN&apos;)</valueList>
+<localIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP118" id="6A2B46B8-9BE0-02E3-31DD-80ACDADBF71F">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>F0326E71-BD6E-55FC-620A-E0A355833A2C</index>
+<logging>NO</logging>
+<partitionName>SALES_Q2_1998</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP34" id="11E5DA14-C8C0-78BB-107B-B34AB773FBA8">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>02DB51D1-AB19-11AE-4A98-9DD4616D600F</index>
+<logging>NO</logging>
+<partitionName>SALES_Q2_1998</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP6" id="1C6E95B5-2F61-815E-D501-DF60772FD013">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>335A2915-3CC0-9773-1779-F59CFAA60D2D</index>
+<logging>NO</logging>
+<partitionName>SALES_Q2_1998</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP62" id="7FD54C48-86A7-4773-1E74-612236469AEC">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>77690548-7186-6186-DB67-AFC2D60059B0</index>
+<logging>NO</logging>
+<partitionName>SALES_Q2_1998</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP90" id="AE0A398B-9BBB-4BD0-3B99-A55DED181385">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>3A9D30BB-42FB-133E-0A8E-CABB46E4CAEB</index>
+<logging>NO</logging>
+<partitionName>SALES_Q2_1998</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+</localIndexProperties>
+</Partition>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.PartitionOraclev11g" name="SALES_Q3_1998" id="64E826E7-6AD8-D0D9-AF51-9E600749EE4C">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>NO</logging>
+<position>7</position>
+<segment>12BA017C-3A16-76AA-DC5B-95881611CC8E</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+<valueList>TO_DATE(&apos; 1998-10-01 00:00:00&apos;, &apos;SYYYY-MM-DD HH24:MI:SS&apos;, &apos;NLS_CALENDAR=GREGORIAN&apos;)</valueList>
+<localIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP119" id="836298A2-3D04-6BEF-FA4D-4DD746D6F2FC">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>F0326E71-BD6E-55FC-620A-E0A355833A2C</index>
+<logging>NO</logging>
+<partitionName>SALES_Q3_1998</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP35" id="0E1E3754-7DF9-08D7-4673-E79C385BA40D">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>02DB51D1-AB19-11AE-4A98-9DD4616D600F</index>
+<logging>NO</logging>
+<partitionName>SALES_Q3_1998</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP63" id="1B963E86-175E-5D81-FAB0-6F05BDA84A41">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>77690548-7186-6186-DB67-AFC2D60059B0</index>
+<logging>NO</logging>
+<partitionName>SALES_Q3_1998</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP7" id="BAC32F2B-56E7-FD6B-64A5-2BE4529C7E54">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>335A2915-3CC0-9773-1779-F59CFAA60D2D</index>
+<logging>NO</logging>
+<partitionName>SALES_Q3_1998</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP91" id="4F548D48-BE1E-F6CB-8615-E3303231E06A">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>3A9D30BB-42FB-133E-0A8E-CABB46E4CAEB</index>
+<logging>NO</logging>
+<partitionName>SALES_Q3_1998</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+</localIndexProperties>
+</Partition>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.PartitionOraclev11g" name="SALES_Q4_1998" id="7F4070B6-4576-5CD0-03E2-89DF16CB9A48">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>NO</logging>
+<position>8</position>
+<segment>12BA017C-3A16-76AA-DC5B-95881611CC8E</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+<valueList>TO_DATE(&apos; 1999-01-01 00:00:00&apos;, &apos;SYYYY-MM-DD HH24:MI:SS&apos;, &apos;NLS_CALENDAR=GREGORIAN&apos;)</valueList>
+<localIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP120" id="B833A464-3CE6-8446-1B51-830FB7710D7A">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>F0326E71-BD6E-55FC-620A-E0A355833A2C</index>
+<logging>NO</logging>
+<partitionName>SALES_Q4_1998</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP36" id="A7B2586F-A7EE-0180-1DC4-9E238BE7E9BE">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>02DB51D1-AB19-11AE-4A98-9DD4616D600F</index>
+<logging>NO</logging>
+<partitionName>SALES_Q4_1998</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP64" id="4E2C4C9F-ECFE-0459-EE39-315DCFB71011">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>77690548-7186-6186-DB67-AFC2D60059B0</index>
+<logging>NO</logging>
+<partitionName>SALES_Q4_1998</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP8" id="07128A2C-07F9-608B-F73A-EC0D727C4A06">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>335A2915-3CC0-9773-1779-F59CFAA60D2D</index>
+<logging>NO</logging>
+<partitionName>SALES_Q4_1998</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP92" id="CA881168-23ED-7385-F91C-CCD1F8E2450B">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>3A9D30BB-42FB-133E-0A8E-CABB46E4CAEB</index>
+<logging>NO</logging>
+<partitionName>SALES_Q4_1998</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+</localIndexProperties>
+</Partition>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.PartitionOraclev11g" name="SALES_Q1_1999" id="FC54E770-B7E4-869D-55BF-FAD2E4BDECE1">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>NO</logging>
+<position>9</position>
+<segment>12BA017C-3A16-76AA-DC5B-95881611CC8E</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+<valueList>TO_DATE(&apos; 1999-04-01 00:00:00&apos;, &apos;SYYYY-MM-DD HH24:MI:SS&apos;, &apos;NLS_CALENDAR=GREGORIAN&apos;)</valueList>
+<localIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP121" id="52BAFCDB-F5C0-71C2-BAB8-F3FE7C8CD3D6">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>F0326E71-BD6E-55FC-620A-E0A355833A2C</index>
+<logging>NO</logging>
+<partitionName>SALES_Q1_1999</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP37" id="F4C0E4C6-E8D1-9447-5CAD-F8B038EE4234">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>02DB51D1-AB19-11AE-4A98-9DD4616D600F</index>
+<logging>NO</logging>
+<partitionName>SALES_Q1_1999</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP65" id="27330B4D-8ACD-51AC-AC1B-CF73565A2470">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>77690548-7186-6186-DB67-AFC2D60059B0</index>
+<logging>NO</logging>
+<partitionName>SALES_Q1_1999</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP9" id="021AE71A-84C7-E74A-A06A-F18AE0E43B05">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>335A2915-3CC0-9773-1779-F59CFAA60D2D</index>
+<logging>NO</logging>
+<partitionName>SALES_Q1_1999</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP93" id="8B3F101F-4721-2BE6-C030-296C7C0079C2">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>3A9D30BB-42FB-133E-0A8E-CABB46E4CAEB</index>
+<logging>NO</logging>
+<partitionName>SALES_Q1_1999</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+</localIndexProperties>
+</Partition>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.PartitionOraclev11g" name="SALES_Q2_1999" id="5A9B4543-4868-3C6C-B9B4-DF3D4A83AA99">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>NO</logging>
+<position>10</position>
+<segment>12BA017C-3A16-76AA-DC5B-95881611CC8E</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+<valueList>TO_DATE(&apos; 1999-07-01 00:00:00&apos;, &apos;SYYYY-MM-DD HH24:MI:SS&apos;, &apos;NLS_CALENDAR=GREGORIAN&apos;)</valueList>
+<localIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP10" id="D2A1848E-3BF5-D3FA-89FF-C9193F806EA6">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>335A2915-3CC0-9773-1779-F59CFAA60D2D</index>
+<logging>NO</logging>
+<partitionName>SALES_Q2_1999</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP122" id="87818A97-D18F-B61F-A18D-D8D80BA8E75D">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>F0326E71-BD6E-55FC-620A-E0A355833A2C</index>
+<logging>NO</logging>
+<partitionName>SALES_Q2_1999</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP38" id="8F12DDA6-EF94-BE33-1D47-F6C6680E9249">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>02DB51D1-AB19-11AE-4A98-9DD4616D600F</index>
+<logging>NO</logging>
+<partitionName>SALES_Q2_1999</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP66" id="A9A48185-C07A-DFB9-671C-A122F15996FD">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>77690548-7186-6186-DB67-AFC2D60059B0</index>
+<logging>NO</logging>
+<partitionName>SALES_Q2_1999</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP94" id="AFD82431-673F-848F-54DC-E10C542CB89B">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>3A9D30BB-42FB-133E-0A8E-CABB46E4CAEB</index>
+<logging>NO</logging>
+<partitionName>SALES_Q2_1999</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+</localIndexProperties>
+</Partition>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.PartitionOraclev11g" name="SALES_Q3_1999" id="B9CAAAAB-3439-4007-9388-A4BC938846EB">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>NO</logging>
+<position>11</position>
+<segment>12BA017C-3A16-76AA-DC5B-95881611CC8E</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+<valueList>TO_DATE(&apos; 1999-10-01 00:00:00&apos;, &apos;SYYYY-MM-DD HH24:MI:SS&apos;, &apos;NLS_CALENDAR=GREGORIAN&apos;)</valueList>
+<localIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP11" id="A648D02A-89CB-6503-48D4-4CE8722B58BC">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>335A2915-3CC0-9773-1779-F59CFAA60D2D</index>
+<logging>NO</logging>
+<partitionName>SALES_Q3_1999</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP123" id="5F2D7178-86F1-4811-04F4-EC712F6CC87B">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>F0326E71-BD6E-55FC-620A-E0A355833A2C</index>
+<logging>NO</logging>
+<partitionName>SALES_Q3_1999</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP39" id="BAEB0A70-F774-C1B8-A455-CC4DAF57FC21">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>02DB51D1-AB19-11AE-4A98-9DD4616D600F</index>
+<logging>NO</logging>
+<partitionName>SALES_Q3_1999</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP67" id="A5C90454-E74B-C9A8-F475-49DD6754BF9A">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>77690548-7186-6186-DB67-AFC2D60059B0</index>
+<logging>NO</logging>
+<partitionName>SALES_Q3_1999</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP95" id="0BAAA246-C6CA-6B3C-50A7-7F89EC4E9C0C">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>3A9D30BB-42FB-133E-0A8E-CABB46E4CAEB</index>
+<logging>NO</logging>
+<partitionName>SALES_Q3_1999</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+</localIndexProperties>
+</Partition>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.PartitionOraclev11g" name="SALES_Q4_1999" id="873FC92A-2F91-5519-CC3F-45B7007C0C88">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>NO</logging>
+<position>12</position>
+<segment>12BA017C-3A16-76AA-DC5B-95881611CC8E</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+<valueList>TO_DATE(&apos; 2000-01-01 00:00:00&apos;, &apos;SYYYY-MM-DD HH24:MI:SS&apos;, &apos;NLS_CALENDAR=GREGORIAN&apos;)</valueList>
+<localIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP12" id="731926D4-7896-A523-17DC-C9EE1A457167">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>335A2915-3CC0-9773-1779-F59CFAA60D2D</index>
+<logging>NO</logging>
+<partitionName>SALES_Q4_1999</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP124" id="00AC5CAB-8450-75B5-63FD-7517F56E58A0">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>F0326E71-BD6E-55FC-620A-E0A355833A2C</index>
+<logging>NO</logging>
+<partitionName>SALES_Q4_1999</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP40" id="5E7A72FD-BB41-9DDC-78B7-74E2BF725E40">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>02DB51D1-AB19-11AE-4A98-9DD4616D600F</index>
+<logging>NO</logging>
+<partitionName>SALES_Q4_1999</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP68" id="291B262A-46E3-91DC-9B51-D78220E2F17B">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>77690548-7186-6186-DB67-AFC2D60059B0</index>
+<logging>NO</logging>
+<partitionName>SALES_Q4_1999</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP96" id="0F9FA905-5E90-A2C4-187F-53E528A1AE8B">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>3A9D30BB-42FB-133E-0A8E-CABB46E4CAEB</index>
+<logging>NO</logging>
+<partitionName>SALES_Q4_1999</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+</localIndexProperties>
+</Partition>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.PartitionOraclev11g" name="SALES_Q1_2000" id="ED7F59B1-CEEE-3531-FBBB-396DF4B5AE2E">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>NO</logging>
+<position>13</position>
+<segment>12BA017C-3A16-76AA-DC5B-95881611CC8E</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+<valueList>TO_DATE(&apos; 2000-04-01 00:00:00&apos;, &apos;SYYYY-MM-DD HH24:MI:SS&apos;, &apos;NLS_CALENDAR=GREGORIAN&apos;)</valueList>
+<localIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP125" id="8B3CEBB0-0717-CFD0-3409-58ABFA414C4C">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>F0326E71-BD6E-55FC-620A-E0A355833A2C</index>
+<logging>NO</logging>
+<partitionName>SALES_Q1_2000</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP13" id="F3E99C94-C45D-8B93-9C4A-C77601D108E4">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>335A2915-3CC0-9773-1779-F59CFAA60D2D</index>
+<logging>NO</logging>
+<partitionName>SALES_Q1_2000</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP41" id="FC334B21-F1B9-5D02-58EF-4F58F33AF938">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>02DB51D1-AB19-11AE-4A98-9DD4616D600F</index>
+<logging>NO</logging>
+<partitionName>SALES_Q1_2000</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP69" id="00C09B63-399E-FC78-4C33-BE41DBFEAC81">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>77690548-7186-6186-DB67-AFC2D60059B0</index>
+<logging>NO</logging>
+<partitionName>SALES_Q1_2000</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP97" id="F3604ACA-040D-78D9-954F-8310C8E0C5FA">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>3A9D30BB-42FB-133E-0A8E-CABB46E4CAEB</index>
+<logging>NO</logging>
+<partitionName>SALES_Q1_2000</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+</localIndexProperties>
+</Partition>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.PartitionOraclev11g" name="SALES_Q2_2000" id="E1817F2E-D99A-677B-20B0-378B77435AF3">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>NO</logging>
+<position>14</position>
+<segment>12BA017C-3A16-76AA-DC5B-95881611CC8E</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+<valueList>TO_DATE(&apos; 2000-07-01 00:00:00&apos;, &apos;SYYYY-MM-DD HH24:MI:SS&apos;, &apos;NLS_CALENDAR=GREGORIAN&apos;)</valueList>
+<localIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP126" id="DB938027-AA92-E63B-C51E-B5D5E749979E">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>F0326E71-BD6E-55FC-620A-E0A355833A2C</index>
+<logging>NO</logging>
+<partitionName>SALES_Q2_2000</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP14" id="D57A6A41-F827-170D-30BA-73660D24AFCD">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>335A2915-3CC0-9773-1779-F59CFAA60D2D</index>
+<logging>NO</logging>
+<partitionName>SALES_Q2_2000</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP42" id="753E598A-0F76-CCA4-3777-155AC57E788F">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>02DB51D1-AB19-11AE-4A98-9DD4616D600F</index>
+<logging>NO</logging>
+<partitionName>SALES_Q2_2000</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP70" id="5EFE6F12-3CE3-1E94-C13B-239CCAC29E63">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>77690548-7186-6186-DB67-AFC2D60059B0</index>
+<logging>NO</logging>
+<partitionName>SALES_Q2_2000</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP98" id="C6BC5174-9272-2250-7F03-F7537137C178">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>3A9D30BB-42FB-133E-0A8E-CABB46E4CAEB</index>
+<logging>NO</logging>
+<partitionName>SALES_Q2_2000</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+</localIndexProperties>
+</Partition>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.PartitionOraclev11g" name="SALES_Q3_2000" id="3BBA03C0-7B9F-D345-8EF9-973CC2E2BFD6">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>NO</logging>
+<position>15</position>
+<segment>12BA017C-3A16-76AA-DC5B-95881611CC8E</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+<valueList>TO_DATE(&apos; 2000-10-01 00:00:00&apos;, &apos;SYYYY-MM-DD HH24:MI:SS&apos;, &apos;NLS_CALENDAR=GREGORIAN&apos;)</valueList>
+<localIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP127" id="DB5F22EF-A89D-21EC-DF54-EADD2E5B27EF">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>F0326E71-BD6E-55FC-620A-E0A355833A2C</index>
+<logging>NO</logging>
+<partitionName>SALES_Q3_2000</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP15" id="69D6394E-8DA9-BFB6-6865-11F587D20AE7">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>335A2915-3CC0-9773-1779-F59CFAA60D2D</index>
+<logging>NO</logging>
+<partitionName>SALES_Q3_2000</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP43" id="655E8335-DA51-A131-BAE2-54D1997E15B4">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>02DB51D1-AB19-11AE-4A98-9DD4616D600F</index>
+<logging>NO</logging>
+<partitionName>SALES_Q3_2000</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP71" id="3E33FA7C-607E-F56E-8037-759EAD525302">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>77690548-7186-6186-DB67-AFC2D60059B0</index>
+<logging>NO</logging>
+<partitionName>SALES_Q3_2000</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP99" id="51771402-26B9-4406-2CF0-2DB302DA74CB">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>3A9D30BB-42FB-133E-0A8E-CABB46E4CAEB</index>
+<logging>NO</logging>
+<partitionName>SALES_Q3_2000</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+</localIndexProperties>
+</Partition>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.PartitionOraclev11g" name="SALES_Q4_2000" id="7524263A-1BAC-8C76-C331-FB031C8DDC83">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>NO</logging>
+<position>16</position>
+<segment>12BA017C-3A16-76AA-DC5B-95881611CC8E</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+<valueList>TO_DATE(&apos; 2001-01-01 00:00:00&apos;, &apos;SYYYY-MM-DD HH24:MI:SS&apos;, &apos;NLS_CALENDAR=GREGORIAN&apos;)</valueList>
+<localIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP100" id="5C3029A7-89B2-4633-5025-F444057E4EFE">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>3A9D30BB-42FB-133E-0A8E-CABB46E4CAEB</index>
+<logging>NO</logging>
+<partitionName>SALES_Q4_2000</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP128" id="10BE9341-D20D-01AA-113F-677B5C9D7990">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>F0326E71-BD6E-55FC-620A-E0A355833A2C</index>
+<logging>NO</logging>
+<partitionName>SALES_Q4_2000</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP16" id="399EACC6-EF95-BBEB-FD86-6656F0EE0BF4">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>335A2915-3CC0-9773-1779-F59CFAA60D2D</index>
+<logging>NO</logging>
+<partitionName>SALES_Q4_2000</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP44" id="1F181C5C-6653-24C1-6063-942CAFF3B0DC">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>02DB51D1-AB19-11AE-4A98-9DD4616D600F</index>
+<logging>NO</logging>
+<partitionName>SALES_Q4_2000</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP72" id="35B82568-49C5-62FF-3E73-9AC6315C0C52">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>77690548-7186-6186-DB67-AFC2D60059B0</index>
+<logging>NO</logging>
+<partitionName>SALES_Q4_2000</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+</localIndexProperties>
+</Partition>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.PartitionOraclev11g" name="SALES_Q1_2001" id="5FD9C864-A0EB-F783-C193-75BA4364E4E3">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>NO</logging>
+<position>17</position>
+<segment>12BA017C-3A16-76AA-DC5B-95881611CC8E</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+<valueList>TO_DATE(&apos; 2001-04-01 00:00:00&apos;, &apos;SYYYY-MM-DD HH24:MI:SS&apos;, &apos;NLS_CALENDAR=GREGORIAN&apos;)</valueList>
+<localIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP101" id="CD85798D-4856-00FD-847B-FA8765A6B838">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>3A9D30BB-42FB-133E-0A8E-CABB46E4CAEB</index>
+<logging>NO</logging>
+<partitionName>SALES_Q1_2001</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP129" id="8AF6625C-CB8E-AD78-131A-4E8856F934CB">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>F0326E71-BD6E-55FC-620A-E0A355833A2C</index>
+<logging>NO</logging>
+<partitionName>SALES_Q1_2001</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP17" id="E45F2D67-6FB5-FC39-2169-6BA60896551B">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>335A2915-3CC0-9773-1779-F59CFAA60D2D</index>
+<logging>NO</logging>
+<partitionName>SALES_Q1_2001</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP45" id="8227365C-157E-0D04-CC37-3E04E2EB1774">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>02DB51D1-AB19-11AE-4A98-9DD4616D600F</index>
+<logging>NO</logging>
+<partitionName>SALES_Q1_2001</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP73" id="412F1028-688F-D433-F7B7-E7BF5D357E99">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>77690548-7186-6186-DB67-AFC2D60059B0</index>
+<logging>NO</logging>
+<partitionName>SALES_Q1_2001</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+</localIndexProperties>
+</Partition>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.PartitionOraclev11g" name="SALES_Q2_2001" id="5ABCC95D-A09E-5510-9EC3-5BB729407BE5">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>NO</logging>
+<position>18</position>
+<segment>12BA017C-3A16-76AA-DC5B-95881611CC8E</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+<valueList>TO_DATE(&apos; 2001-07-01 00:00:00&apos;, &apos;SYYYY-MM-DD HH24:MI:SS&apos;, &apos;NLS_CALENDAR=GREGORIAN&apos;)</valueList>
+<localIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP102" id="91257288-92A3-C4A2-27E1-8F432BF1EF98">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>3A9D30BB-42FB-133E-0A8E-CABB46E4CAEB</index>
+<logging>NO</logging>
+<partitionName>SALES_Q2_2001</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP130" id="243011BA-BE17-7F40-E5DD-19EB6744BDCE">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>F0326E71-BD6E-55FC-620A-E0A355833A2C</index>
+<logging>NO</logging>
+<partitionName>SALES_Q2_2001</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP18" id="D61C42D3-2F0F-86CC-5018-9FA833A2AD46">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>335A2915-3CC0-9773-1779-F59CFAA60D2D</index>
+<logging>NO</logging>
+<partitionName>SALES_Q2_2001</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP46" id="83E43DEC-C2B6-A3C4-B2C4-1891264DD8E0">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>02DB51D1-AB19-11AE-4A98-9DD4616D600F</index>
+<logging>NO</logging>
+<partitionName>SALES_Q2_2001</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP74" id="A3CB3319-3CA2-1422-0AA4-B93687A94B22">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>77690548-7186-6186-DB67-AFC2D60059B0</index>
+<logging>NO</logging>
+<partitionName>SALES_Q2_2001</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+</localIndexProperties>
+</Partition>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.PartitionOraclev11g" name="SALES_Q3_2001" id="CBD8891F-5E6D-18CA-2964-67465939F5AC">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>NO</logging>
+<position>19</position>
+<segment>12BA017C-3A16-76AA-DC5B-95881611CC8E</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+<valueList>TO_DATE(&apos; 2001-10-01 00:00:00&apos;, &apos;SYYYY-MM-DD HH24:MI:SS&apos;, &apos;NLS_CALENDAR=GREGORIAN&apos;)</valueList>
+<localIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP103" id="55689BED-282C-21A7-FA6F-C43337270079">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>3A9D30BB-42FB-133E-0A8E-CABB46E4CAEB</index>
+<logging>NO</logging>
+<partitionName>SALES_Q3_2001</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP131" id="6ACDCCB1-06E3-2D3B-A695-012DE4B30ED9">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>F0326E71-BD6E-55FC-620A-E0A355833A2C</index>
+<logging>NO</logging>
+<partitionName>SALES_Q3_2001</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP19" id="9A2147EF-9B90-CB1B-DA35-D07426C18C5E">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>335A2915-3CC0-9773-1779-F59CFAA60D2D</index>
+<logging>NO</logging>
+<partitionName>SALES_Q3_2001</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP47" id="2503B974-D8E9-132D-FEC4-81E53C6BD31F">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>02DB51D1-AB19-11AE-4A98-9DD4616D600F</index>
+<logging>NO</logging>
+<partitionName>SALES_Q3_2001</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP75" id="2E6E6BEF-11E3-B9CA-2E8C-2524B39A27CA">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>77690548-7186-6186-DB67-AFC2D60059B0</index>
+<logging>NO</logging>
+<partitionName>SALES_Q3_2001</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+</localIndexProperties>
+</Partition>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.PartitionOraclev11g" name="SALES_Q4_2001" id="A5F28244-0463-A514-544B-AF231C33C1FC">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>NO</logging>
+<position>20</position>
+<segment>12BA017C-3A16-76AA-DC5B-95881611CC8E</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+<valueList>TO_DATE(&apos; 2002-01-01 00:00:00&apos;, &apos;SYYYY-MM-DD HH24:MI:SS&apos;, &apos;NLS_CALENDAR=GREGORIAN&apos;)</valueList>
+<localIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP104" id="278504CB-2F56-9337-E6F7-782218E3584F">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>3A9D30BB-42FB-133E-0A8E-CABB46E4CAEB</index>
+<logging>NO</logging>
+<partitionName>SALES_Q4_2001</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP132" id="EAE9D7B0-9163-B7B3-BF70-5910469D3E35">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>F0326E71-BD6E-55FC-620A-E0A355833A2C</index>
+<logging>NO</logging>
+<partitionName>SALES_Q4_2001</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP20" id="B846676D-52F9-92F4-7B37-CCC34559B04A">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>335A2915-3CC0-9773-1779-F59CFAA60D2D</index>
+<logging>NO</logging>
+<partitionName>SALES_Q4_2001</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP48" id="15A8AE33-0467-B4D7-6D6C-431C6C8FECF8">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>02DB51D1-AB19-11AE-4A98-9DD4616D600F</index>
+<logging>NO</logging>
+<partitionName>SALES_Q4_2001</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP76" id="51DA9E36-BAFB-2E33-8AD1-0A23866EF3EF">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>77690548-7186-6186-DB67-AFC2D60059B0</index>
+<logging>NO</logging>
+<partitionName>SALES_Q4_2001</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+</localIndexProperties>
+</Partition>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.PartitionOraclev11g" name="SALES_Q1_2002" id="C00310E9-DE45-13FA-5EDB-C60EDABB228C">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>NO</logging>
+<position>21</position>
+<segment>12BA017C-3A16-76AA-DC5B-95881611CC8E</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+<valueList>TO_DATE(&apos; 2002-04-01 00:00:00&apos;, &apos;SYYYY-MM-DD HH24:MI:SS&apos;, &apos;NLS_CALENDAR=GREGORIAN&apos;)</valueList>
+<localIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP105" id="9F24782D-9200-0BB4-5CC9-90CFF5968913">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>3A9D30BB-42FB-133E-0A8E-CABB46E4CAEB</index>
+<logging>NO</logging>
+<partitionName>SALES_Q1_2002</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP133" id="40685697-2D18-F5C9-0CD4-009DBB3AA2DF">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>F0326E71-BD6E-55FC-620A-E0A355833A2C</index>
+<logging>NO</logging>
+<partitionName>SALES_Q1_2002</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP21" id="1D800419-35C2-0265-9826-EFA99417B4E3">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>335A2915-3CC0-9773-1779-F59CFAA60D2D</index>
+<logging>NO</logging>
+<partitionName>SALES_Q1_2002</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP49" id="947C4823-B3B2-45E3-38EE-88616754A4F3">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>02DB51D1-AB19-11AE-4A98-9DD4616D600F</index>
+<logging>NO</logging>
+<partitionName>SALES_Q1_2002</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP77" id="3C3B845D-8830-BBF3-6228-66374492FE41">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>77690548-7186-6186-DB67-AFC2D60059B0</index>
+<logging>NO</logging>
+<partitionName>SALES_Q1_2002</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+</localIndexProperties>
+</Partition>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.PartitionOraclev11g" name="SALES_Q2_2002" id="30D311BD-90C2-33B8-8AF3-E77D8F50523E">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>NO</logging>
+<position>22</position>
+<segment>12BA017C-3A16-76AA-DC5B-95881611CC8E</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+<valueList>TO_DATE(&apos; 2002-07-01 00:00:00&apos;, &apos;SYYYY-MM-DD HH24:MI:SS&apos;, &apos;NLS_CALENDAR=GREGORIAN&apos;)</valueList>
+<localIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP106" id="B1A3ACBA-1052-02D3-FAA0-C5175BE229EA">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>3A9D30BB-42FB-133E-0A8E-CABB46E4CAEB</index>
+<logging>NO</logging>
+<partitionName>SALES_Q2_2002</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP134" id="AF26DC2C-A290-A3BD-77DA-1AE87B80471C">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>F0326E71-BD6E-55FC-620A-E0A355833A2C</index>
+<logging>NO</logging>
+<partitionName>SALES_Q2_2002</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP22" id="8BD59E85-F437-5505-8D10-86DB49DA2D84">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>335A2915-3CC0-9773-1779-F59CFAA60D2D</index>
+<logging>NO</logging>
+<partitionName>SALES_Q2_2002</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP50" id="3E2F353A-8349-16EA-4D6B-8646B3F1A1F9">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>02DB51D1-AB19-11AE-4A98-9DD4616D600F</index>
+<logging>NO</logging>
+<partitionName>SALES_Q2_2002</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP78" id="BBCBFD4F-B7F8-2334-64A6-895AADB3A7D9">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>77690548-7186-6186-DB67-AFC2D60059B0</index>
+<logging>NO</logging>
+<partitionName>SALES_Q2_2002</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+</localIndexProperties>
+</Partition>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.PartitionOraclev11g" name="SALES_Q3_2002" id="02D750D7-E5A1-4B8E-3A5A-553C5C5FEB28">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>NO</logging>
+<position>23</position>
+<segment>12BA017C-3A16-76AA-DC5B-95881611CC8E</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+<valueList>TO_DATE(&apos; 2002-10-01 00:00:00&apos;, &apos;SYYYY-MM-DD HH24:MI:SS&apos;, &apos;NLS_CALENDAR=GREGORIAN&apos;)</valueList>
+<localIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP107" id="29C6BF40-0C7C-2A90-398D-FAD80A5A0CB5">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>3A9D30BB-42FB-133E-0A8E-CABB46E4CAEB</index>
+<logging>NO</logging>
+<partitionName>SALES_Q3_2002</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP135" id="C822D3CD-E485-96DA-C96A-0337D86CCB44">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>F0326E71-BD6E-55FC-620A-E0A355833A2C</index>
+<logging>NO</logging>
+<partitionName>SALES_Q3_2002</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP23" id="85E620D6-47F7-B824-4967-6BA328B7FF97">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>335A2915-3CC0-9773-1779-F59CFAA60D2D</index>
+<logging>NO</logging>
+<partitionName>SALES_Q3_2002</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP51" id="34245B01-ABD6-146A-4F23-C1D6ED68EA99">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>02DB51D1-AB19-11AE-4A98-9DD4616D600F</index>
+<logging>NO</logging>
+<partitionName>SALES_Q3_2002</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP79" id="B8092DF6-13C4-167A-EB3A-F58E1BC11ACC">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>77690548-7186-6186-DB67-AFC2D60059B0</index>
+<logging>NO</logging>
+<partitionName>SALES_Q3_2002</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+</localIndexProperties>
+</Partition>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.PartitionOraclev11g" name="SALES_Q4_2002" id="524F4D94-3662-3CAF-5B8E-8B30D5A51F7C">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>NO</logging>
+<position>24</position>
+<segment>12BA017C-3A16-76AA-DC5B-95881611CC8E</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+<valueList>TO_DATE(&apos; 2003-01-01 00:00:00&apos;, &apos;SYYYY-MM-DD HH24:MI:SS&apos;, &apos;NLS_CALENDAR=GREGORIAN&apos;)</valueList>
+<localIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP108" id="88882CEC-0CF2-ED03-138E-CC4F8D8604E1">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>3A9D30BB-42FB-133E-0A8E-CABB46E4CAEB</index>
+<logging>NO</logging>
+<partitionName>SALES_Q4_2002</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP136" id="2FD7635A-2AC2-9BD5-C13C-3FECA9396017">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>F0326E71-BD6E-55FC-620A-E0A355833A2C</index>
+<logging>NO</logging>
+<partitionName>SALES_Q4_2002</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP24" id="CBC51688-6778-872F-6FC3-44FEF73FE464">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>335A2915-3CC0-9773-1779-F59CFAA60D2D</index>
+<logging>NO</logging>
+<partitionName>SALES_Q4_2002</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP52" id="4F961D01-BBDE-26CB-540C-9AB52ABF5E64">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>02DB51D1-AB19-11AE-4A98-9DD4616D600F</index>
+<logging>NO</logging>
+<partitionName>SALES_Q4_2002</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP80" id="B560574A-3403-6F26-4358-1B01E8A5CDB2">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>77690548-7186-6186-DB67-AFC2D60059B0</index>
+<logging>NO</logging>
+<partitionName>SALES_Q4_2002</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+</localIndexProperties>
+</Partition>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.PartitionOraclev11g" name="SALES_Q1_2003" id="DACD5258-0466-2A20-F2E2-18BABFB55E60">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>NO</logging>
+<position>25</position>
+<segment>12BA017C-3A16-76AA-DC5B-95881611CC8E</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+<valueList>TO_DATE(&apos; 2003-04-01 00:00:00&apos;, &apos;SYYYY-MM-DD HH24:MI:SS&apos;, &apos;NLS_CALENDAR=GREGORIAN&apos;)</valueList>
+<localIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP109" id="F4F8DDD9-FA20-2619-DDC8-43675D40C70A">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>3A9D30BB-42FB-133E-0A8E-CABB46E4CAEB</index>
+<logging>NO</logging>
+<partitionName>SALES_Q1_2003</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP137" id="D4E15573-D662-62E6-AE0D-18D59D94CD93">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>F0326E71-BD6E-55FC-620A-E0A355833A2C</index>
+<logging>NO</logging>
+<partitionName>SALES_Q1_2003</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP25" id="6BEC5A58-BA65-EA8C-2121-F3D534EE1F1B">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>335A2915-3CC0-9773-1779-F59CFAA60D2D</index>
+<logging>NO</logging>
+<partitionName>SALES_Q1_2003</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP53" id="5A6F6F28-8C9F-CB8D-EE56-C3B060737C21">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>02DB51D1-AB19-11AE-4A98-9DD4616D600F</index>
+<logging>NO</logging>
+<partitionName>SALES_Q1_2003</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP81" id="D98A7684-F9BC-061D-D794-8EAAC0050B34">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>77690548-7186-6186-DB67-AFC2D60059B0</index>
+<logging>NO</logging>
+<partitionName>SALES_Q1_2003</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+</localIndexProperties>
+</Partition>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.PartitionOraclev11g" name="SALES_Q2_2003" id="264E802B-B4D1-8048-36D4-F36E1BBCA3D4">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>NO</logging>
+<position>26</position>
+<segment>12BA017C-3A16-76AA-DC5B-95881611CC8E</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+<valueList>TO_DATE(&apos; 2003-07-01 00:00:00&apos;, &apos;SYYYY-MM-DD HH24:MI:SS&apos;, &apos;NLS_CALENDAR=GREGORIAN&apos;)</valueList>
+<localIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP110" id="8B152844-3CEF-C6BA-241C-5D64B34E55D4">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>3A9D30BB-42FB-133E-0A8E-CABB46E4CAEB</index>
+<logging>NO</logging>
+<partitionName>SALES_Q2_2003</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP138" id="61517EC3-D66B-A834-93CA-388C86297D7B">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>F0326E71-BD6E-55FC-620A-E0A355833A2C</index>
+<logging>NO</logging>
+<partitionName>SALES_Q2_2003</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP26" id="5155A6B8-ED9F-9072-65B3-8090A3126EDA">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>335A2915-3CC0-9773-1779-F59CFAA60D2D</index>
+<logging>NO</logging>
+<partitionName>SALES_Q2_2003</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP54" id="80387F40-523C-76CF-4E53-E36CDF5BCC44">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>02DB51D1-AB19-11AE-4A98-9DD4616D600F</index>
+<logging>NO</logging>
+<partitionName>SALES_Q2_2003</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP82" id="4BFEAD44-6FED-973B-E213-D6A88A954FB0">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>77690548-7186-6186-DB67-AFC2D60059B0</index>
+<logging>NO</logging>
+<partitionName>SALES_Q2_2003</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+</localIndexProperties>
+</Partition>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.PartitionOraclev11g" name="SALES_Q3_2003" id="1CADAE01-B6C7-70FC-F21E-1EDB12B7DE58">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>NO</logging>
+<position>27</position>
+<segment>12BA017C-3A16-76AA-DC5B-95881611CC8E</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+<valueList>TO_DATE(&apos; 2003-10-01 00:00:00&apos;, &apos;SYYYY-MM-DD HH24:MI:SS&apos;, &apos;NLS_CALENDAR=GREGORIAN&apos;)</valueList>
+<localIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP111" id="7F8469A1-12F2-1FA1-6B62-705D450BA6B9">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>3A9D30BB-42FB-133E-0A8E-CABB46E4CAEB</index>
+<logging>NO</logging>
+<partitionName>SALES_Q3_2003</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP139" id="D7C566BC-AE22-B750-A92B-102EBA2C26C3">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>F0326E71-BD6E-55FC-620A-E0A355833A2C</index>
+<logging>NO</logging>
+<partitionName>SALES_Q3_2003</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP27" id="6004887B-37C5-8127-C2F3-C4F418A73435">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>335A2915-3CC0-9773-1779-F59CFAA60D2D</index>
+<logging>NO</logging>
+<partitionName>SALES_Q3_2003</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP55" id="27CD86C0-67D0-7964-774B-CF86CD189A8F">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>02DB51D1-AB19-11AE-4A98-9DD4616D600F</index>
+<logging>NO</logging>
+<partitionName>SALES_Q3_2003</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP83" id="220B0FA3-285E-1E99-495D-E41C8EE541CA">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>77690548-7186-6186-DB67-AFC2D60059B0</index>
+<logging>NO</logging>
+<partitionName>SALES_Q3_2003</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+</localIndexProperties>
+</Partition>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.PartitionOraclev11g" name="SALES_Q4_2003" id="25161F68-CA1F-C849-57A8-258A9A0F2DAF">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<dataSegmentCompression>NO</dataSegmentCompression>
+<logging>NO</logging>
+<position>28</position>
+<segment>AE6DB14E-9D82-0578-FABD-1E4CB5F55ECA</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+<valueList>TO_DATE(&apos; 2004-01-01 00:00:00&apos;, &apos;SYYYY-MM-DD HH24:MI:SS&apos;, &apos;NLS_CALENDAR=GREGORIAN&apos;)</valueList>
+<localIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP112" id="EBA26189-930C-60BE-D9E0-DCD9EF9494AA">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>3A9D30BB-42FB-133E-0A8E-CABB46E4CAEB</index>
+<logging>NO</logging>
+<partitionName>SALES_Q4_2003</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP140" id="EF0EBC14-5767-47E8-39A8-F982FD509ED6">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>F0326E71-BD6E-55FC-620A-E0A355833A2C</index>
+<logging>NO</logging>
+<partitionName>SALES_Q4_2003</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP28" id="5BF6C9CF-65BD-D45B-22A7-F314C55C78EA">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>335A2915-3CC0-9773-1779-F59CFAA60D2D</index>
+<logging>NO</logging>
+<partitionName>SALES_Q4_2003</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP56" id="6A11CEE2-9FA1-01CD-EE29-2ED72F552E21">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>02DB51D1-AB19-11AE-4A98-9DD4616D600F</index>
+<logging>NO</logging>
+<partitionName>SALES_Q4_2003</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP84" id="ACE79F3C-36D2-1E17-B09E-33FE04E393AA">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<index>77690548-7186-6186-DB67-AFC2D60059B0</index>
+<logging>NO</logging>
+<partitionName>SALES_Q4_2003</partitionName>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</LocalIndexProperties>
+</localIndexProperties>
+</Partition>
+</partitions>
+</TableProxyOraclev11g>

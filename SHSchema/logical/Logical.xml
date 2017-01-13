@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="DA911A4E-BE4E-7D75-5989-2598123E4F63" mainViewID="6E25D651-0DC3-9B07-3E20-5076F9E71587">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-09 14:44:54 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

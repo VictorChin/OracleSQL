@@ -1,0 +1,604 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0A8D19A9-FD17-8B42-152F-AB420B68EF0B" schemaObject="5DDF790B-032C-E679-2970-75C0DEA13903" name="TIMES">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>SH</sourceObjSchema>
+<sourceObjName>TIMES</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>Time dimension table to support multiple hierarchies and materialized views</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TIME_ID" id="E090A3A4-8A45-D2C6-B935-E7EDB2F9A177">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>TIMES</sourceObjSchema>
+<sourceObjName>TIME_ID</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>primary key; day date, finest granularity, CORRECT ORDER</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAY_NAME" id="61B73F4C-7C45-EC4F-5773-5FDB199F70DF">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>TIMES</sourceObjSchema>
+<sourceObjName>DAY_NAME</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>Monday to Sunday, repeating</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAY_NUMBER_IN_WEEK" id="14589637-4FB3-71C3-469C-5B4E9A43CDF3">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>TIMES</sourceObjSchema>
+<sourceObjName>DAY_NUMBER_IN_WEEK</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>1 to 7, repeating</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAY_NUMBER_IN_MONTH" id="5C07A301-50B0-CE4A-A75D-3CA56F2AB21A">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>TIMES</sourceObjSchema>
+<sourceObjName>DAY_NUMBER_IN_MONTH</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>1 to 31, repeating</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CALENDAR_WEEK_NUMBER" id="86A718ED-A190-F406-2C51-1D1A818169C6">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>TIMES</sourceObjSchema>
+<sourceObjName>CALENDAR_WEEK_NUMBER</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>1 to 53, repeating</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FISCAL_WEEK_NUMBER" id="DA277003-8306-DD82-1B77-8A64AD842ED3">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>TIMES</sourceObjSchema>
+<sourceObjName>FISCAL_WEEK_NUMBER</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>1 to 53, repeating</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WEEK_ENDING_DAY" id="7B9DF82C-F109-BE5E-7E03-0BB8090C9F2C">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>TIMES</sourceObjSchema>
+<sourceObjName>WEEK_ENDING_DAY</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>date of last day in week, CORRECT ORDER</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WEEK_ENDING_DAY_ID" id="88E79AFA-7134-2373-6DFA-C99C93B2541F">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>TIMES</sourceObjSchema>
+<sourceObjName>WEEK_ENDING_DAY_ID</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CALENDAR_MONTH_NUMBER" id="A70C3911-2AEB-860F-4E34-9BD54E38D73A">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>TIMES</sourceObjSchema>
+<sourceObjName>CALENDAR_MONTH_NUMBER</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>1 to 12, repeating</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FISCAL_MONTH_NUMBER" id="AA66D304-854F-5AA0-A0DF-0E89E24E0BC4">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>TIMES</sourceObjSchema>
+<sourceObjName>FISCAL_MONTH_NUMBER</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>1 to 12, repeating</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CALENDAR_MONTH_DESC" id="FD74E31C-0EC3-0695-30B2-1CDC0852792A">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>TIMES</sourceObjSchema>
+<sourceObjName>CALENDAR_MONTH_DESC</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>e.g. 1998-01, CORRECT ORDER</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CALENDAR_MONTH_ID" id="91EAB2BD-0496-7BC7-9DF3-0C42BCBC3F22">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>TIMES</sourceObjSchema>
+<sourceObjName>CALENDAR_MONTH_ID</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FISCAL_MONTH_DESC" id="0F9DA67D-7700-1930-09B2-963C8FCC3160">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>TIMES</sourceObjSchema>
+<sourceObjName>FISCAL_MONTH_DESC</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>e.g. 1998-01, CORRECT ORDER</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FISCAL_MONTH_ID" id="1D409B09-B299-64FD-836E-72598943DCCB">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>TIMES</sourceObjSchema>
+<sourceObjName>FISCAL_MONTH_ID</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAYS_IN_CAL_MONTH" id="5D464950-8FD9-94BD-0C0C-F814824E0219">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>TIMES</sourceObjSchema>
+<sourceObjName>DAYS_IN_CAL_MONTH</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>e.g. 28,31, repeating</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAYS_IN_FIS_MONTH" id="2229C4B2-EFCF-59BE-DCFD-EA8925FC17F5">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>TIMES</sourceObjSchema>
+<sourceObjName>DAYS_IN_FIS_MONTH</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>e.g. 25,32, repeating</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_OF_CAL_MONTH" id="DAEE0021-DA25-A318-3544-A29E7489FCA2">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>TIMES</sourceObjSchema>
+<sourceObjName>END_OF_CAL_MONTH</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>last day of calendar month</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_OF_FIS_MONTH" id="C452DBAA-BDF3-A525-8CBE-EFF7985EE54D">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>TIMES</sourceObjSchema>
+<sourceObjName>END_OF_FIS_MONTH</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>last day of fiscal month</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CALENDAR_MONTH_NAME" id="9069DE3D-5A14-7BF0-3BBC-CB66BFEB456D">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>TIMES</sourceObjSchema>
+<sourceObjName>CALENDAR_MONTH_NAME</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>January to December, repeating</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FISCAL_MONTH_NAME" id="BBD4AA9E-4851-9054-D582-9BC874AC04DC">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>TIMES</sourceObjSchema>
+<sourceObjName>FISCAL_MONTH_NAME</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>January to December, repeating</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CALENDAR_QUARTER_DESC" id="3AED5830-5728-3122-173E-9C2E641E5FA9">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>TIMES</sourceObjSchema>
+<sourceObjName>CALENDAR_QUARTER_DESC</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>e.g. 1998-Q1, CORRECT ORDER</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>7 BYTE</dataTypeSize>
+<ownDataTypeParameters>7 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CALENDAR_QUARTER_ID" id="5533CBE7-72AC-B55D-807A-FF23FA1F5CC8">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>TIMES</sourceObjSchema>
+<sourceObjName>CALENDAR_QUARTER_ID</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FISCAL_QUARTER_DESC" id="44C1A58B-721C-7953-132D-66B16A1DF049">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>TIMES</sourceObjSchema>
+<sourceObjName>FISCAL_QUARTER_DESC</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>e.g. 1999-Q3, CORRECT ORDER</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>7 BYTE</dataTypeSize>
+<ownDataTypeParameters>7 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FISCAL_QUARTER_ID" id="1C86735E-686E-133D-D150-EF2373DE35B6">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>TIMES</sourceObjSchema>
+<sourceObjName>FISCAL_QUARTER_ID</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAYS_IN_CAL_QUARTER" id="3EAE6D33-37DB-1A33-1A04-980D119199F1">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>TIMES</sourceObjSchema>
+<sourceObjName>DAYS_IN_CAL_QUARTER</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>e.g. 88,90, repeating</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAYS_IN_FIS_QUARTER" id="0852D008-92AA-62BA-348B-102DA6E5EE58">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>TIMES</sourceObjSchema>
+<sourceObjName>DAYS_IN_FIS_QUARTER</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>e.g. 88,90, repeating</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_OF_CAL_QUARTER" id="B6578884-6F36-F35A-E4CD-790AC82C45B9">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>TIMES</sourceObjSchema>
+<sourceObjName>END_OF_CAL_QUARTER</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>last day of calendar quarter</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_OF_FIS_QUARTER" id="F2296054-59BB-ED83-D31B-406F4FDE88E5">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>TIMES</sourceObjSchema>
+<sourceObjName>END_OF_FIS_QUARTER</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>last day of fiscal quarter</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CALENDAR_QUARTER_NUMBER" id="6F9B666B-8EA5-D266-B51D-822BA00072C8">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>TIMES</sourceObjSchema>
+<sourceObjName>CALENDAR_QUARTER_NUMBER</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>1 to 4, repeating</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FISCAL_QUARTER_NUMBER" id="A83495E9-E44A-E57E-923B-882F08E775B4">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>TIMES</sourceObjSchema>
+<sourceObjName>FISCAL_QUARTER_NUMBER</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>1 to 4, repeating</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CALENDAR_YEAR" id="51333FE3-79CB-625F-8443-A3966878DDB5">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>TIMES</sourceObjSchema>
+<sourceObjName>CALENDAR_YEAR</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>e.g. 1999, CORRECT ORDER</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CALENDAR_YEAR_ID" id="F14911FE-5FE1-936D-120A-038E2C391AD0">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>TIMES</sourceObjSchema>
+<sourceObjName>CALENDAR_YEAR_ID</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FISCAL_YEAR" id="CFB9042D-BE2C-6EB6-6B75-49878E83C8DB">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>TIMES</sourceObjSchema>
+<sourceObjName>FISCAL_YEAR</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>e.g. 1999, CORRECT ORDER</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FISCAL_YEAR_ID" id="81C24B51-119C-6B36-CC42-5F7E26348A07">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>TIMES</sourceObjSchema>
+<sourceObjName>FISCAL_YEAR_ID</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAYS_IN_CAL_YEAR" id="96EFA558-9D02-4CD9-B49A-BBA1C228907A">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>TIMES</sourceObjSchema>
+<sourceObjName>DAYS_IN_CAL_YEAR</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>365,366 repeating</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAYS_IN_FIS_YEAR" id="31E04589-C0E5-2BB4-5884-995F9CDEDBD8">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>TIMES</sourceObjSchema>
+<sourceObjName>DAYS_IN_FIS_YEAR</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>e.g. 355,364, repeating</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_OF_CAL_YEAR" id="31238D54-86B1-4C1F-0E82-495C43170357">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>TIMES</sourceObjSchema>
+<sourceObjName>END_OF_CAL_YEAR</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>last day of cal year</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_OF_FIS_YEAR" id="8BB85117-0E7C-4E52-017C-C29939F17759">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>TIMES</sourceObjSchema>
+<sourceObjName>END_OF_FIS_YEAR</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<commentInRDBMS>last day of fiscal year</commentInRDBMS>
+<ownerDesignName>SHSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="31358B5D-6891-8518-B4E1-BE74BFC250B0" name="TIMES_PK">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>SH</sourceObjSchema>
+<sourceObjName>TIMES_PK</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E090A3A4-8A45-D2C6-B935-E7EDB2F9A177"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="939B5F2B-54B1-8749-F4C7-F82AF3D5CF64" schemaObject="5DDF790B-032C-E679-2970-75C0DEA13903" name="TIMES_PK">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>SH</sourceObjSchema>
+<sourceObjName>TIMES_PK</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E090A3A4-8A45-D2C6-B935-E7EDB2F9A177"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="SHSchema" id="B4E72B6E-53E4-2BF4-30AF-1908928E6210" version="3.5">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-09 14:44:54 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B4E72B6E-53E4-2BF4-30AF-1908928E6210</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="76A55438-2FBE-5303-E400-A5410522A000">
+<designStoragePath>C:\</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

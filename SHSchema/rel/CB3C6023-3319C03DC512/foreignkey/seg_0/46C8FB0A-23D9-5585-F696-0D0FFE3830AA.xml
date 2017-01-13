@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="46C8FB0A-23D9-5585-F696-0D0FFE3830AA" containerWithKeyObject="239BEA7A-F9EB-3212-5988-8BBED5A666E2" localFKIndex="B23AAA36-FE12-7F9E-2B51-F9DA65151A34" name="SALES_CHANNEL_FK">
+<sourceConnName>SH</sourceConnName>
+<sourceObjSchema>SH</sourceObjSchema>
+<sourceObjName>SALES_CHANNEL_FK</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ECA95A72-875F-8215-7703-BA0F35A73A01</referredTableID>
+<keyObject>7E6877DF-5806-3A96-F638-7C08232428C3</keyObject>
+<referredKeyID>7E6877DF-5806-3A96-F638-7C08232428C3</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

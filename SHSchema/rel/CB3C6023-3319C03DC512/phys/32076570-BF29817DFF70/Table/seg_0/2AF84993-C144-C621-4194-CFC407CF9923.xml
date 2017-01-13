@@ -1,0 +1,180 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PRODUCTS" directorySegmentName="seg_0" id="2AF84993-C144-C621-4194-CFC407CF9923">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<schemaObject>5DDF790B-032C-E679-2970-75C0DEA13903</schemaObject>
+<logging>NO</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>328B473D-1F25-6648-F9EB-A2679AACB88A</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PROD_ID" id="04FBF127-B974-C702-8F1A-F3B5D0AF8B97">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROD_CATEGORY_ID" id="218CB90A-D7E3-9868-32EF-694FD2579425">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROD_SUBCATEGORY" id="3397C433-99CE-9AC4-CD3E-13F7FC640669">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROD_LIST_PRICE" id="434BE626-2CD8-563D-C5A8-E7AEE5678CBA">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROD_TOTAL_ID" id="4D95E954-56F3-BAF8-2A36-D8119BB63F35">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROD_SUBCATEGORY_DESC" id="52DA3DBC-62A3-45FB-5AE0-FF3E296E523A">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROD_WEIGHT_CLASS" id="58799472-F100-EC81-A2DB-3271EBAAD586">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROD_MIN_PRICE" id="69C9D919-DCE7-0905-668E-5F52F3770D86">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROD_TOTAL" id="6B0D4DF6-5668-9068-4E21-BF11A2DE6184">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROD_NAME" id="6DC6895B-5E75-9D80-0DE9-57F3FD8D1B2D">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROD_EFF_FROM" id="7C9698B7-5567-E628-7440-FCA39233BAC0">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROD_VALID" id="8ACB2748-7602-F38E-A572-5504360528E7">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROD_SUBCATEGORY_ID" id="B3773C50-48FD-F70B-277A-FB4DC47C2B45">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROD_UNIT_OF_MEASURE" id="B3938447-6428-896C-584B-90D6EED418CC">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROD_STATUS" id="B5B5F7F4-8EF4-F988-5204-39E43E9C9841">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROD_CATEGORY" id="CEDF1E07-9F20-D7C2-B94C-41F7942C109E">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUPPLIER_ID" id="D16DAEA5-17E9-7B4D-0B41-7650E2FF33B4">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROD_DESC" id="D53E685D-B93A-65A0-2F4A-CCB6C8A4F3BE">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROD_PACK_SIZE" id="D894A590-0214-1F7F-CE5D-F20197F11DE6">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROD_CATEGORY_DESC" id="DB722F63-6B77-0B13-A1CA-8B846CE1AF22">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROD_SRC_ID" id="E8F081AD-46DE-F622-AB3B-B82E7381357C">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROD_EFF_TO" id="FAA37878-F939-4597-A731-78F42CE6C888">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PRODUCTS_PK" id="32007B88-812C-AF90-941D-019DDD6AC0C2">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<schemaObject>5DDF790B-032C-E679-2970-75C0DEA13903</schemaObject>
+<logging>NO</logging>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PRODUCTS_PROD_CAT_IX" id="7A2E2B7A-ACD9-FCB8-E617-77BF14039BD4">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<schemaObject>5DDF790B-032C-E679-2970-75C0DEA13903</schemaObject>
+<logging>NO</logging>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PRODUCTS_PROD_SUBCAT_IX" id="91ECCDF8-5CD2-4F64-84FE-0701F36E7CD6">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<schemaObject>5DDF790B-032C-E679-2970-75C0DEA13903</schemaObject>
+<logging>NO</logging>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PRODUCTS_PROD_STATUS_BIX" id="B275B603-4AE3-A15B-697E-CF4AB643C03D">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<schemaObject>5DDF790B-032C-E679-2970-75C0DEA13903</schemaObject>
+<bitmapIndex>true</bitmapIndex>
+<logging>NO</logging>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PRODUCTS_PK" id="A9904CB0-24F9-E28E-A2C7-27635ED92E5A">
+<createdBy>Administrator</createdBy>
+<createdTime>2017-01-10 16:45:52 UTC</createdTime>
+<ownerDesignName>SHSchema</ownerDesignName>
+<logging>NO</logging>
+<segment>A856C244-4751-8ABD-63A0-80265194198F</segment>
+<tableSpace>521BCE11-753C-B861-39DA-53E4D7D8BBBE</tableSpace>
+<existingIndex>32007B88-812C-AF90-941D-019DDD6AC0C2</existingIndex>
+<indexSegment>A856C244-4751-8ABD-63A0-80265194198F</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+<validate>NO</validate>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>
